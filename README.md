@@ -13,3 +13,7 @@ git clone https://github.com/Pooshan/FetchRewardsPooshan.git
 
 - Run with following command using pytest:
 <b> pytest --browser chrome </b>
+
+Thank you! 
+- PS: 
+- <b>Please see the screen-shot folder for capture results.</b> 
