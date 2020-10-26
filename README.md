@@ -18,8 +18,8 @@ git clone https://github.com/Pooshan/FetchRewardsPooshan.git
 <b> pytest --browser <browser_name> </b>
 
 #### Example: 
-- For Chrome browser: `pytest —browser chrome`
-- For Firefox browser: `pytest —browser firefox`
+- For Chrome browser: `pytest —-browser chrome`
+- For Firefox browser: `pytest —-browser firefox`
 
 
 Thank you! 
