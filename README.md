@@ -7,15 +7,15 @@ Fetch Rewards SDET Code Challenge
 - Fetch Rewards page is not liked by the user already
 
 ## Setup:
-pip install -r requirements.txt
-
-## How to run:
 - Go to terminal
 - Clone the repo via following command:
 git clone https://github.com/Pooshan/FetchRewardsPooshan.git
-- Go to project directory or /test folder in that
+- Go to project directory
+- pip install -r requirements.txt
+
+## How to run:
 - Run with following command using pytest:
-<b> pytest --browser chrome </b>
+<b> pytest --browser <browser_name> </b>
 
 #### Example: 
 - For Chrome browser: `pytest —browser chrome`
