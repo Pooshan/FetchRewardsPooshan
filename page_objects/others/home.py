@@ -12,6 +12,8 @@ class Home(Common):
     search_button = '//button[@data-testid="facebar_search_button"]'
     fetch_rewards_search_result = 'Fetch Rewards'
     like_button = "//button[contains (@class, 'likeButton')]"
+    liked_button = "//button[contains (@class, 'likedButton')]"
+    done_button = "//div[contains(@class, 'uiOverlayFooter')]/a[1]"
 
     def search_and_click(self, input_text):
         self.enter_text(Home.search_bar, "xpath", input_text)
@@ -22,4 +24,5 @@ class Home(Common):
         self.click(Home.fetch_rewards_search_result, "link_text")
         time.sleep(5)
         self.click(Home.like_button, "xpath")
+
 
